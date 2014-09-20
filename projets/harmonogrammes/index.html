@@ -1,0 +1,34 @@
+<head>
+	<title>Harmonogrammes</title>
+	<script type="text/javascript" src="lib/paper-full.min.js"></script>
+	<script type="text/javascript" src="lib/dat.gui.min.js"></script>
+	<script type="text/javascript" src="lib/FileSaver.js"></script>
+	<script type="text/javascript" src="lib/canvas-toBlob.js"></script>
+	<script type="text/javascript" src="/js/GAnalytics.js"></script>
+	<style type="text/css">
+		* {
+			margin: 0px;
+		}
+		canvas {
+			position: absolute;
+		}
+		img[alt~="Chrome"] {
+			position: fixed;
+			left: 20px;
+			bottom: 20px;
+		}
+		#qrcode {
+			position: fixed;
+			left: 20px;
+			top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="paperCanvas" resize></canvas>
+	<a href="http://www.chromeexperiments.com/detail/harmonogrammes/" target="_blank">
+		<img src="/img/badge-black_white.png" alt="Chrome Experiments">
+	</a>
+	<div id="qrcode"></div>
+	<script type="text/javascript" src="harmonograph.js"></script>
+</body>

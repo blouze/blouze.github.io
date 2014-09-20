@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bits &amp; Tricks</title>
+    <atom:link href="http://blouze.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://blouze.github.io/</link>
+    <description>Code visuel</description>
+    <pubDate>Sun, 29 Jun 2014 02:00:00 +0200</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Harmonogrammes sur Chrome Experiments</title>
+      <link>http://blouze.github.io//articles/chrome-experiments/</link>
+      <pubDate>Sun, 29 Jun 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://blouze.github.io//articles/chrome-experiments/</guid>
+      <author></author>
+      <description>&lt;style type=&quot;text/css&quot;&gt;
+    .article .content img[alt=Harmonogrammes] {
+        width: 483px;
+        text-align: center;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;J’ai le plaisir et l’honneur d’annoncer aux quatre personnes qui connaissent l’existence de ce blog, que “&lt;a href=&quot;http://blouze.github.io/projets/harmonogrammes/&quot; title=&quot;Harmonogrammes&quot;&gt;Harmonogrammes&lt;/a&gt;“ a été sélectionné pour figurer sur le prestigieux &lt;a href=&quot;http://www.chromeexperiments.com/detail/harmonogrammes/&quot; title=&quot;Visiter Chrome-Experiments&quot;&gt;Chrome Experiments&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.chromeexperiments.com/detail/harmonogrammes/&quot; title=&quot;Visiter Chrome-Experiments&quot;&gt;&lt;img src=&quot;http://blouze.github.io/articles/chrome-experiments/img/chromexp.png&quot; alt=&quot;Harmonogrammes&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vous êtes maintenant huit!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Harmonogrammes</title>
+      <link>http://blouze.github.io//articles/harmonogrammes/</link>
+      <pubDate>Thu, 13 Mar 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://blouze.github.io//articles/harmonogrammes/</guid>
+      <author></author>
+      <description>&lt;style type=&quot;text/css&quot;&gt;
+    .article .content img[alt=Harmonographe] {
+        width: 483px;
+        text-align: center;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434330671.png&quot; alt=&quot;Harmonogramme&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Quelque part au XIXe siècle, deux pendules et un crayon s’ennuient.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mise-jour-&quot;&gt;Mise à jour:&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.chromeexperiments.com/detail/harmonogrammes/&quot; title=&quot;Chrome Experiments&quot;&gt;&lt;img src=&quot;http://blouze.github.io/img/badge-black_white.png&quot; alt=&quot;Chrome-Experiments&quot;&gt;&lt;/a&gt;
+“Harmonogrammes” sélectionné pour figurer sur&lt;br&gt;&lt;a href=&quot;http://www.chromeexperiments.com/detail/harmonogrammes/&quot; title=&quot;Chrome Experiments&quot;&gt;Chrome Experiments&lt;/a&gt; !&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Machine à &lt;a href=&quot;http://en.wikipedia.org/wiki/Jules_Antoine_Lissajous&quot; title=&quot;Jules Antoine Lissajous&quot;&gt;Lissajous&lt;/a&gt; faite de bouts de ficelle, voici qu’on voit l’harmonographe aller et venir dans tous les salons, tracer quelque temps pour un public béat, ses dessins diaboliquement simple et envoutant à la fois.&lt;/p&gt;
+&lt;p&gt;Et puis, un jour, plus rien. Après une courte bataille où on tenta de s’en approprier le brevet, on vit disparaître la machine et ses petits dessins.&lt;/p&gt;
+&lt;p&gt;La mode passe. L’élégance reste. Cent cinquante plus tard, on le voit encore parfois ressurgir dans de petits cercles, alors que sa simplicité le met à la portée du plus grand nombre.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1965-05-04.gif&quot; alt=&quot;Harmonographe&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blouze.github.io/projets/harmonogrammes/&quot;&gt;Lancer l’application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pour forcer le trait, on peut même rajouter un mouvement identique au support et générer ainsi des courbes encore plus fascinantes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;x(t) = A&lt;sub&gt;x&lt;/sub&gt;(t) . sin(&amp;omega;&lt;sub&gt;x&lt;/sub&gt;.t + p&lt;sub&gt;x&lt;/sub&gt;) + A&lt;sub&gt;s&lt;/sub&gt;(t) . sin(&amp;omega;&lt;sub&gt;s&lt;/sub&gt;.t + p&lt;sub&gt;s&lt;/sub&gt;)&lt;/p&gt;
+&lt;p&gt;y(t) = A&lt;sub&gt;y&lt;/sub&gt;(t) . sin(&amp;omega;&lt;sub&gt;y&lt;/sub&gt;.t + p&lt;sub&gt;y&lt;/sub&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ou &lt;strong&gt;&amp;omega;&lt;sub&gt;x&lt;/sub&gt;&lt;/strong&gt;, &lt;strong&gt;&amp;omega;&lt;sub&gt;y&lt;/sub&gt;&lt;/strong&gt; et &lt;strong&gt;&amp;omega;&lt;sub&gt;s&lt;/sub&gt;&lt;/strong&gt; sont les fréquences d’oscillation des deux pendules et du support, et &lt;strong&gt;p&lt;sub&gt;x&lt;/sub&gt;&lt;/strong&gt;, &lt;strong&gt;p&lt;sub&gt;y&lt;/sub&gt;&lt;/strong&gt; et &lt;strong&gt;p&lt;sub&gt;s&lt;/sub&gt;&lt;/strong&gt; leurs phases initiales.&lt;/p&gt;
+&lt;p&gt;Les amplitudes respectives:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A(t) = A(t - 1) . (1 - d)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;tendent vers zéro avec le temps &lt;em&gt;(source: &lt;a href=&quot;http://paulbourke.net/geometry/harmonograph/&quot; title=&quot;Paul Bourke&quot;&gt;Paul Bourke&lt;/a&gt;)&lt;/em&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div id=&quot;harmonographe_slides&quot;&gt;
+    &lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434330671.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434512352.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434548602.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434567402.png&quot; alt=&quot;&quot;&gt;
+    &lt;img src=&quot;http://blouze.github.io/articles/harmonogrammes/img/1402434600975.png&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    $(function(){
+        $(&quot;#harmonographe_slides&quot;).slidesjs({
+            navigation: {
+                active: false,
+                effect: &quot;fade&quot;
+            }, 
+            play: {
+                active: false,
+                effect: &quot;fade&quot;,
+                interval: 3000,
+                auto: true,
+                swap: true,
+                pauseOnHover: true,
+                restartDelay: 2500
+            },
+            pagination: {
+                effect: &quot;fade&quot;
+            }, 
+            effect: {
+                fade: {
+                    speed: 800,
+                    crossfade: true
+                }
+            }
+        });
+    });
+&lt;/script&gt;
+
+</description>
+    </item>
+  </channel>
+</rss>

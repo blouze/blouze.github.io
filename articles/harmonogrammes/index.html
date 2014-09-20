@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Harmonogrammes - Bits &amp; Tricks
+    </title>
+    <link rel="alternate" href="//feed.xml" type="application/rss+xml" title="Code visuel">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ek+Mukta:300,400&amp;subset=latin,latin-ext">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/SlideJS/jquery.slides.min.js"></script>
+    <script type="text/javascript" src="/js/GAnalytics.js"></script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Harmonogrammes</h1>
+        <p class="author">Par <span class="author"><a href="mailto:undefined">Blaise Garcia</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><style type="text/css">
+    .article .content img[alt=Harmonographe] {
+        width: 483px;
+        text-align: center;
+    }
+</style>
+
+<p><img src="/articles/harmonogrammes/img/1402434330671.png" alt="Harmonogramme"></p>
+<p>Quelque part au XIXe siècle, deux pendules et un crayon&nbsp;s’ennuient.</p>
+<p><span class="more"></span></p>
+<h4 id="mise-jour-">Mise à&nbsp;jour:</h4>
+<blockquote>
+<p><a href="http://www.chromeexperiments.com/detail/harmonogrammes/" title="Chrome Experiments"><img src="/img/badge-black_white.png" alt="Chrome-Experiments"></a>
+“Harmonogrammes” sélectionné pour figurer sur<br><a href="http://www.chromeexperiments.com/detail/harmonogrammes/" title="Chrome Experiments">Chrome Experiments</a>&nbsp;!</p>
+</blockquote>
+<p>Machine à <a href="http://en.wikipedia.org/wiki/Jules_Antoine_Lissajous" title="Jules Antoine Lissajous">Lissajous</a> faite de bouts de ficelle, voici qu’on voit l’harmonographe aller et venir dans tous les salons, tracer quelque temps pour un public béat, ses dessins diaboliquement simple et envoutant à la&nbsp;fois.</p>
+<p>Et puis, un jour, plus rien. Après une courte bataille où on tenta de s’en approprier le brevet, on vit disparaître la machine et ses petits&nbsp;dessins.</p>
+<p>La mode passe. L’élégance reste. Cent cinquante plus tard, on le voit encore parfois ressurgir dans de petits cercles, alors que sa simplicité le met à la portée du plus grand&nbsp;nombre.</p>
+<p><img src="/articles/harmonogrammes/img/1965-05-04.gif" alt="Harmonographe"></p>
+<p><a href="/projets/harmonogrammes/">Lancer&nbsp;l’application</a></p>
+<p>Pour forcer le trait, on peut même rajouter un mouvement identique au support et générer ainsi des courbes encore plus&nbsp;fascinantes.</p>
+<blockquote>
+<p>x(t) = A<sub>x</sub>(t) . sin(&omega;<sub>x</sub>.t + p<sub>x</sub>) + A<sub>s</sub>(t) . sin(&omega;<sub>s</sub>.t + p<sub>s</sub>)</p>
+<p>y(t) = A<sub>y</sub>(t) . sin(&omega;<sub>y</sub>.t + p<sub>y</sub>)</p>
+</blockquote>
+<p>ou <strong>&omega;<sub>x</sub></strong>, <strong>&omega;<sub>y</sub></strong> et <strong>&omega;<sub>s</sub></strong> sont les fréquences d’oscillation des deux pendules et du support, et <strong>p<sub>x</sub></strong>, <strong>p<sub>y</sub></strong> et <strong>p<sub>s</sub></strong> leurs phases&nbsp;initiales.</p>
+<p>Les amplitudes&nbsp;respectives:</p>
+<blockquote>
+<p>A(t) = A(t - 1) . (1 -&nbsp;d)</p>
+</blockquote>
+<p>tendent vers zéro avec le temps <em>(source: <a href="http://paulbourke.net/geometry/harmonograph/" title="Paul Bourke">Paul Bourke</a>)</em>.</p>
+<hr>
+<div id="harmonographe_slides">
+    <img src="/articles/harmonogrammes/img/1402434330671.png" alt="">
+    <img src="/articles/harmonogrammes/img/1402434512352.png" alt="">
+    <img src="/articles/harmonogrammes/img/1402434548602.png" alt="">
+    <img src="/articles/harmonogrammes/img/1402434567402.png" alt="">
+    <img src="/articles/harmonogrammes/img/1402434600975.png" alt="">
+</div>
+
+<script>
+    $(function(){
+        $("#harmonographe_slides").slidesjs({
+            navigation: {
+                active: false,
+                effect: "fade"
+            }, 
+            play: {
+                active: false,
+                effect: "fade",
+                interval: 3000,
+                auto: true,
+                swap: true,
+                pauseOnHover: true,
+                restartDelay: 2500
+            },
+            pagination: {
+                effect: "fade"
+            }, 
+            effect: {
+                fade: {
+                    speed: 800,
+                    crossfade: true
+                }
+            }
+        });
+    });
+</script>
+
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Retour</a></div>
+                <div id="disqus_thread"></div>
+                <script>
+                  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                  var disqus_shortname = 'bitstricks'; // required: replace example with your forum shortname
+                  
+                  /* * * DON'T EDIT BELOW THIS LINE * * */
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+                  
+                </script>
+                <noscript>
+                  Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </noscript>
+        <section class="about"><h1 id="bits-tricks">Bits &amp; Tricks</h1>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2014 Blaise Garcia &mdash; Bien présenté grace à&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
